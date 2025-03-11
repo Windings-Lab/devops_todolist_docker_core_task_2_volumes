@@ -5,7 +5,7 @@
 `-v` - change to your volume name. And after ':' it sets db folder data for a volume<br>
 last argument - image name to create from
 2. Run python app using command:<br>
-`Docker run --name --name <container-name> -p <host-port>:8080 -d gasterlab/todoapp:2.0.0`<br>
+`Docker run --name <container-name> -p <host-port>:8080 -d gasterlab/todoapp:2.0.0`<br>
 `--name <container-name>` - change this<br>
 `-d` - is detached from current terminal<br>
 `-p <host-port>` - change your host port to your needs<br>
